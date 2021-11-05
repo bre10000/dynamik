@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynamik - Coming Soon</title>
+  <link type="text/css" href="./vendor/bulma/dist/css/bulma.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./css/custom-general.css">
+
+</head>
+
+<body>
+  
+  
+
+
+  <!-- Main Content -->
+  <div class="back-image"></div>
+  <main class="main-content content">
+
+    <div class="container-fluid p-6">
+      <img src="./images/dynamik-logo.svg" class="mb-2 pl-1" width="75" alt="Dymanik Logo">
+
+
+      <h1 class="is-size-1 has-text-weight-bold mt-6 pt-6 has-text-white">
+        WE’RE COMING SOON
+        <p class="is-size-6 has-text-weight-medium" style="opacity: .5;">Our website is under construction. Use the information <br> below to contact us.</p>
+      </h1>
+      
+      <br><br>
+
+      <div class="container-fluid">
+        <div class="columns">
+          <div class="column is-half-desktop">
+
+
+            <div class="columns is-mobile is-multiline">
+              <div class="column is-half-mobile is-one-quarter-desktop">
+                <h3 class="is-size-2 has-text-weight-bold has-text-white" id="days">0</h3>
+                <p style="opacity: .5;">DAYS</p>
+              </div>
+              <div class="column is-half-mobile is-one-quarter-desktop">
+                <h3 class="is-size-2 has-text-weight-bold has-text-white" id="hours">0</h3>
+                <p style="opacity: .5;">HOURS</p>
+              </div>
+              <div class="column is-half-mobile is-one-quarter-desktop">
+                <h3 class="is-size-2 has-text-weight-bold has-text-white" id="minutes">0</h3>
+                <p style="opacity: .5;">MINUTES</p>
+              </div>
+              <div class="column is-half-mobile is-one-quarter-desktop">
+                <h3 class="is-size-2 has-text-weight-bold has-text-white" id="seconds">0</h3>
+                <p style="opacity: .5;">SECONDS</p>
+              </div>
+            </div>
+
+            <br><br>
+
+            <div class="columns">
+              <div class="column">
+                <a href="tel:+251938053376"><img src="./images/icons/Phone.svg" width="18" alt="phone icon" class="mr-2"> <span class="has-text-weight-bold">ET</span> +251 938 053376</a>
+              </div>
+              <div class="column">
+                <a href="mailto:mail@dyna-mik.com"><img src="./images/icons/email.svg" width="18" alt="email icon" class="mr-2"> mail@dyna-mik.com</a>
+              </div>
+            </div>
+            <div class="columns">
+              <div class="column">
+                <a href="https://www.google.com/maps/place/9%C2%B001'41.2%22N+38%C2%B049'44.1%22E/@9.0281562,38.8288353,18.75z"><img src="./images/icons/address.svg" width="18" alt="location icon" class="mr-2">Wosen 02, <br>
+                  &nbsp;&nbsp;&nbsp;&nbsp; Addis Ababa, Ethiopia</a>
+              </div>
+            </div>
+
+
+            <br>
+            <a 
+            class="button is-light p-5"
+            href="https://www.google.com/maps/place/9%C2%B001'41.2%22N+38%C2%B049'44.1%22E/@9.0281562,38.8288353,18.75z">
+              <img src="./images/icons/map-dark.svg" width="18" alt="map icon" class="mr-4">
+            Open on Google Maps
+            </a>
+
+
+
+          </div>
+        </div>
+        
+      </div>
+
+
+
+  </main>
+  
+
+  <script>
+    // Set the date we're counting down to
+    var countDownDate = new Date("Dec 1, 2021 00:00:00").getTime();
+    
+    // Update the count down every 1 second
+    var x = setInterval(function() {
+    
+      // Get today's date and time
+      var now = new Date().getTime();
+    
+      // Find the distance between now and the count down date
+      var distance = countDownDate - now;
+    
+      // Time calculations for days, hours, minutes and seconds
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+      // Display the result in the element with id="demo"
+      document.getElementById("days").innerHTML = days;
+      document.getElementById("hours").innerHTML = hours;
+      document.getElementById("minutes").innerHTML = minutes;
+      document.getElementById("seconds").innerHTML = seconds;
+    
+      // If the count down is finished, write some text
+      if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("days").innerHTML = 0;
+        document.getElementById("hours").innerHTML = 0;
+        document.getElementById("minutes").innerHTML = 0;
+        document.getElementById("seconds").innerHTML = 0;
+      }
+    }, 1000);
+    </script>
+</body>
+
+</html>
